@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"  href="images/medusa.png" type="image" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/main.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
   <title>AquaMala</title>
 </head>
 <body>
@@ -13,10 +17,23 @@
       <a href="" class="logoHome">
         <img src="images/AquamalaBLANCO.png" class="imgLogo" alt="">
       </a>
-    </section>
-    <section>  
-      <video src="images/BANNER.mp4" autoplay muted loop></video>
+      <nav class="menu_nav" >
+          <ul class="menuList" id="menu">
+            <li>INICIO</li>
+            <li>CONTACTANOS</li>
+            <li>SERVICIOS</li>
+            <li>REDES</li>
+          </ul>
+        </nav> 
+      </nav>
+      <div class="menuIcon">
+        <i class='bx bx-menu menuResp' id="btn_menu"></i>
+      </div>
     </section>
   </header>
+  <section>  
+    <video src="images/BANNER.mp4" autoplay muted loop></video>
+  </section>
+  <script src="/js/menu.js"></script>
 </body>
 </html>
